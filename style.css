@@ -97,6 +97,7 @@ normal {
 	-moz-border-radius: 10px;
 	margin: 0;
 	margin-left: 1%;
+	-webkit-transition: background-color 300ms linear;
 }
 .rounded:hover {
 	background: #000000;
