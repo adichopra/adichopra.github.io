@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+   <head>
+      <title>Clickjack Demo</title>
+   </head>
+   <body>
+
+<h1>Clickjack demo</h1>
+
+<h2>onmousedown="this.href=...</h2>
+<p> 
+  <a href=http://www.google.com/
+     onmousedown="this.href='http://www.dilbert.com';"
+  >
+  Go to Google
+  </a>
+	<br/>Firefox and Chrome: Shows google as target, until go to evil once,
+	    then show evil as target as anchor's href has been changed by mousedown.
+</p>
+   </body>
+</html>
